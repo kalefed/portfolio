@@ -23,7 +23,7 @@ export default function Home() {
         />
       </div>
 
-      <section>
+      <section className="mb-10">
         <WorkingOn />
       </section>
     </div>
