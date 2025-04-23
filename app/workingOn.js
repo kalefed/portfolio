@@ -5,7 +5,7 @@ export default function WorkingOn() {
   return (
     <div>
       <header className="mb-10">
-        <h1 className="font-source-serif text-6xl italic">
+        <h1 className="font-source-serif text-4xl italic">
           What I've been working on
         </h1>
         <h3 className="font-inter text-xl pl-2 pt-2 text-[#aaaaaa]">
