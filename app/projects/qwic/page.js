@@ -24,7 +24,7 @@ export default function page() {
           alt="QWIC website picture"
           className="mb-10"
         />
-        <div className="grid grid-cols-4 grid-rows-4 gap-x-8 gap-y-4 w-4/6">
+        <div className="grid grid-cols-4 gap-x-8 gap-y-4 w-4/6">
           <div className="row-span-1 col-span-1">
             <h2 className="font-bold mb-2">Timeline</h2>
             <p>12 Months</p>
