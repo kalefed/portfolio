@@ -8,6 +8,9 @@ export default function WorkingOn() {
         <h1 className="font-source-serif text-6xl italic">
           What I've been working on
         </h1>
+        <h3 className="font-inter text-xl pl-2 pt-2 text-[#aaaaaa]">
+          Click on a project to learn more ✰
+        </h3>
       </header>
       <section className="grid grid-cols-2 gap-10">
         <Link
@@ -15,17 +18,31 @@ export default function WorkingOn() {
           className="p-4 hover:bg-neutral-100 hover:rounded-xl"
         >
           <Image
-            src="/qwic_thumbnail.png"
+            src="/saywhat_thumbnail.png"
             width={700}
             height={200}
             alt="QWIC website picture"
             className="mb-4"
           />
-          <h1 className="font-source-serif text-xl">
-            Queen's Women in Computing
-          </h1>
+          <h1 className="font-source-serif text-xl">On My Shelf — 2025</h1>
           <p className="text-[#aaaaaa]">
-            Full Stack development for Queen's Women in Computing
+            View and track your reading statistics
+          </p>
+        </Link>
+        <Link
+          href="/projects/qwic"
+          className="p-4 hover:bg-neutral-100 hover:rounded-xl"
+        >
+          <Image
+            src="/saywhat_thumbnail.png"
+            width={700}
+            height={200}
+            alt="QWIC website picture"
+            className="mb-4"
+          />
+          <h1 className="font-source-serif text-xl">Say What — 2025</h1>
+          <p className="text-[#aaaaaa]">
+            Project for Queen's HackHer (Won Best Education Hack)
           </p>
         </Link>
         <Link
@@ -40,67 +57,40 @@ export default function WorkingOn() {
             className="mb-4"
           />
           <h1 className="font-source-serif text-xl">
-            Queen's Women in Computing
+            Queen's Women in Computing — 2024
           </h1>
-          <p className="text-[#aaaaaa]">
-            Full Stack development for Queen's Women in Computing
-          </p>
+          <p className="text-[#aaaaaa]">Full Stack development, QWIC website</p>
         </Link>
-
-        {/* <Link href="/projects/qwic">
-          <div className="border rounded-xl w-full p-4">
-            <h1 className="font-source-serif text-2xl font-bold">
-              Internal metadata search engine
-            </h1>
-            <p>✰ Next.js, Pydantic, FastAPI</p>
-            <p>✰ Statistics Canada</p>
-          </div>
-        </Link>
-
-        <div className="border rounded-xl w-full p-4">
-          <h1 className="font-source-serif text-2xl font-bold">
-            Data validator platform
-          </h1>
-          <p>✰ Next.js, Pydantic, FastAPIr</p>
-          <p>✰ Statistics Canada</p>
-        </div>
-        <div className="border rounded-xl w-full p-4">
-          <h1 className="font-source-serif text-2xl font-bold">
-            Making slang-heavy sentences more understandable
-          </h1>
-          <p>✰ Next.js, Pydantic, FastAPIr</p>
-          <p>✰ Best Education Hack Winner</p>
-        </div>
-
-        <Link href="/projects/qwic">
+        <Link
+          href="/projects/qwic"
+          className="p-4 hover:bg-neutral-100 hover:rounded-xl"
+        >
           <Image
-            src="/qwic_thumbnail.png"
+            src="/compsa_thumbnail.png"
+            width={700}
+            height={200}
+            alt="COMPSA admin panel"
+            className="mb-4"
+          />
+          <h1 className="font-source-serif text-xl">
+            Queen's Computing Students' Association — 2024
+          </h1>
+          <p className="text-[#aaaaaa]">Frontend Developer, Admin Panel</p>
+        </Link>
+        <Link
+          href="/projects/qwic"
+          className="p-4 hover:bg-neutral-100 hover:rounded-xl"
+        >
+          <Image
+            src="/pentagram_thumbnail.png"
             width={700}
             height={200}
             alt="QWIC website picture"
-            className="mb-10"
+            className="mb-4"
           />
-          <div className="border rounded-xl w-full p-4">
-            <h1 className="font-source-serif text-2xl font-bold">
-              Connecting with women and gender minorities in computing
-            </h1>
-            <p>✰ Next.js, Tailwind CSS, Vercel</p>
-            <p>✰ QWIC Web Developer </p>
-          </div>
+          <h1 className="font-source-serif text-xl">The Pentagram</h1>
+          <p className="text-[#aaaaaa]">Artist & Story Developer</p>
         </Link>
-
-        <div className="border rounded-xl w-full p-4">
-          <h1 className="font-source-serif text-2xl font-bold">
-            Visualize and track your reading data
-          </h1>
-          <p>✰ Next.js, CSS, PostgreSQL, SQLAlchemy, Docker</p>
-        </div>
-        <div className="border rounded-xl w-full p-4">
-          <h1 className="font-source-serif text-2xl font-bold">
-            Club admin panel
-          </h1>
-          <p>✰ Next.js, Bulma CSS, Docker</p>
-        </div> */}
       </section>
     </div>
   );

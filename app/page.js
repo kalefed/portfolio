@@ -8,11 +8,11 @@ export default function Home() {
         <header className="col-span-4 flex flex-col justify-center gap-4">
           <h1 className="font-inter text-2xl">Hi there, I'm</h1>
           <h1 className="font-source-serif text-7xl italic">Kaleigh Feder</h1>
-          <h1 className="font-inter text-2xl">
+          <h2 className="font-inter text-2xl">
             A design-driven Full Stack Developer based in Kitchener, ON. My
             focus is on creating user-centered software that drives meaningful
             change.
-          </h1>
+          </h2>
         </header>
         <Image
           className="col-span-3 rotate-6"
