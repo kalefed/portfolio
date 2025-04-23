@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme inline {
+    --font-source-serif: var(--font-source-serif);
+    --font-inter: var(--font-inter);
+}

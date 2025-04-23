@@ -1,0 +1,97 @@
+import Link from "next/link";
+import Image from "next/image";
+
+export default function WorkingOn() {
+  return (
+    <div>
+      <header className="mb-10">
+        <h1 className="font-source-serif text-6xl italic">
+          What I've been working on
+        </h1>
+        <h3 className="font-inter text-xl pl-2 pt-2 text-[#aaaaaa]">
+          Click on a project to learn more ✰
+        </h3>
+      </header>
+      <section className="grid grid-cols-2 gap-10">
+        <Link
+          href="/projects/qwic"
+          className="p-4 hover:bg-neutral-100 hover:rounded-xl"
+        >
+          <Image
+            src="/saywhat_thumbnail.png"
+            width={700}
+            height={200}
+            alt="QWIC website picture"
+            className="mb-4"
+          />
+          <h1 className="font-source-serif text-xl">On My Shelf — 2025</h1>
+          <p className="text-[#aaaaaa]">
+            View and track your reading statistics
+          </p>
+        </Link>
+        <Link
+          href="/projects/qwic"
+          className="p-4 hover:bg-neutral-100 hover:rounded-xl"
+        >
+          <Image
+            src="/saywhat_thumbnail.png"
+            width={700}
+            height={200}
+            alt="QWIC website picture"
+            className="mb-4"
+          />
+          <h1 className="font-source-serif text-xl">Say What — 2025</h1>
+          <p className="text-[#aaaaaa]">
+            Project for Queen's HackHer (Won Best Education Hack)
+          </p>
+        </Link>
+        <Link
+          href="/projects/qwic"
+          className="p-4 hover:bg-neutral-100 hover:rounded-xl"
+        >
+          <Image
+            src="/qwic_thumbnail.png"
+            width={700}
+            height={200}
+            alt="QWIC website picture"
+            className="mb-4"
+          />
+          <h1 className="font-source-serif text-xl">
+            Queen's Women in Computing — 2024
+          </h1>
+          <p className="text-[#aaaaaa]">Full Stack development, QWIC website</p>
+        </Link>
+        <Link
+          href="/projects/qwic"
+          className="p-4 hover:bg-neutral-100 hover:rounded-xl"
+        >
+          <Image
+            src="/compsa_thumbnail.png"
+            width={700}
+            height={200}
+            alt="COMPSA admin panel"
+            className="mb-4"
+          />
+          <h1 className="font-source-serif text-xl">
+            Queen's Computing Students' Association — 2024
+          </h1>
+          <p className="text-[#aaaaaa]">Frontend Developer, Admin Panel</p>
+        </Link>
+        <Link
+          href="/projects/qwic"
+          className="p-4 hover:bg-neutral-100 hover:rounded-xl"
+        >
+          <Image
+            src="/pentagram_thumbnail.png"
+            width={700}
+            height={200}
+            alt="QWIC website picture"
+            className="mb-4"
+          />
+          <h1 className="font-source-serif text-xl">The Pentagram</h1>
+          <p className="text-[#aaaaaa]">Artist & Story Developer</p>
+        </Link>
+      </section>
+    </div>
+  );
+}
