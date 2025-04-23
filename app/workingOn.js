@@ -30,7 +30,7 @@ export default function WorkingOn() {
           </p>
         </Link>
         <Link
-          href="/projects/qwic"
+          href="/projects/saywhat"
           className="p-4 hover:bg-neutral-100 hover:rounded-xl"
         >
           <Image
