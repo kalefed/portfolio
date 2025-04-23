@@ -14,7 +14,7 @@ export default function WorkingOn() {
       </header>
       <section className="grid grid-cols-2 gap-10">
         <Link
-          href="/projects/qwic"
+          href="/projects/onmyshelf"
           className="p-4 hover:bg-neutral-100 hover:rounded-xl"
         >
           <Image
@@ -62,7 +62,7 @@ export default function WorkingOn() {
           <p className="text-[#aaaaaa]">Full Stack development, QWIC website</p>
         </Link>
         <Link
-          href="/projects/qwic"
+          href="/projects/compsa"
           className="p-4 hover:bg-neutral-100 hover:rounded-xl"
         >
           <Image
@@ -78,7 +78,7 @@ export default function WorkingOn() {
           <p className="text-[#aaaaaa]">Frontend Developer, Admin Panel</p>
         </Link>
         <Link
-          href="/projects/qwic"
+          href="/projects/pentagram"
           className="p-4 hover:bg-neutral-100 hover:rounded-xl"
         >
           <Image
