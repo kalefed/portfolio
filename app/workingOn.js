@@ -10,7 +10,10 @@ export default function WorkingOn() {
         </h1>
       </header>
       <section className="grid grid-cols-2 gap-10">
-        <Link href="/projects/qwic">
+        <Link
+          href="/projects/qwic"
+          className="p-4 hover:bg-neutral-100 hover:rounded-xl"
+        >
           <Image
             src="/qwic_thumbnail.png"
             width={700}
@@ -18,13 +21,32 @@ export default function WorkingOn() {
             alt="QWIC website picture"
             className="mb-4"
           />
-          <h1 className="font-source-serif text-xl font-bold">
+          <h1 className="font-source-serif text-xl">
             Queen's Women in Computing
           </h1>
           <p className="text-[#aaaaaa]">
             Full Stack development for Queen's Women in Computing
           </p>
         </Link>
+        <Link
+          href="/projects/qwic"
+          className="p-4 hover:bg-neutral-100 hover:rounded-xl"
+        >
+          <Image
+            src="/qwic_thumbnail.png"
+            width={700}
+            height={200}
+            alt="QWIC website picture"
+            className="mb-4"
+          />
+          <h1 className="font-source-serif text-xl">
+            Queen's Women in Computing
+          </h1>
+          <p className="text-[#aaaaaa]">
+            Full Stack development for Queen's Women in Computing
+          </p>
+        </Link>
+
         {/* <Link href="/projects/qwic">
           <div className="border rounded-xl w-full p-4">
             <h1 className="font-source-serif text-2xl font-bold">

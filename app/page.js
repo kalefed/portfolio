@@ -15,8 +15,8 @@ export default function Home() {
           </h1>
         </header>
         <Image
-          className="col-span-3"
-          src="/profileKale.png"
+          className="col-span-3 rotate-6"
+          src="/profiledrawn.png"
           width={700}
           height={700}
           alt="clipboard with kaleigh feder's image"
