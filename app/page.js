@@ -2,6 +2,7 @@ import Image from "next/image";
 import WorkingOn from "./workingOn";
 import Navbar from "./components/navbar";
 import GrainBackground from "./components/GrainBg";
+import BackpackReveal from "./components/Backpack";
 
 export default function Home() {
   return (
@@ -19,9 +20,13 @@ export default function Home() {
             </h1>
             <h2 className="font-inter text-xl mt-10">
               Currently searching for new grad dev roles, building a book
-              statistics visualizer and reading a fantasy book in her free time!
+              statistics <br /> visualizer and reading a fantasy book in her
+              free time!
             </h2>
           </div>
+        </div>
+        <div className="absolute bottom-20 right-40">
+          <BackpackReveal />
         </div>
       </div>
       <section className="my-10 px-28">
