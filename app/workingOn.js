@@ -5,11 +5,11 @@ export default function WorkingOn() {
   return (
     <div>
       <header className="mb-10">
-        <h1 className="font-source-serif text-4xl italic">
+        <h1 className="font-source-serif text-6xl text-[#4343a0]">
           What I've been working on
         </h1>
-        <h3 className="font-inter text-xl pl-2 pt-2 text-[#aaaaaa]">
-          Click on a project to learn more ✰
+        <h3 className="font-inter text-xl pl-2 pt-5">
+          ✰ click on a project to learn more
         </h3>
       </header>
       <section className="grid grid-cols-2 gap-10">

@@ -4,3 +4,28 @@
     --font-source-serif: var(--font-source-serif);
     --font-inter: var(--font-inter);
 }
+
+@keyframes grain {
+    0%, 100% { transform: translate(0, 0); }
+    10% { transform: translate(-1px, -1px); }
+    20% { transform: translate(1px, -1px); }
+    30% { transform: translate(-1px, 1px); }
+    40% { transform: translate(1px, 1px); }
+    50% { transform: translate(-1px, 0); }
+    60% { transform: translate(1px, 0); }
+    70% { transform: translate(0, 1px); }
+    80% { transform: translate(0, -1px); }
+    90% { transform: translate(1px, 1px); }
+  }
+  
+  .bg-grain {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: url('/grain.svg'); /* put this in your /public folder */
+    background-repeat: repeat;
+    animation: grain 1s steps(10) infinite;
+    opacity: 0.1;
+    z-index: 0;
+  }
+  

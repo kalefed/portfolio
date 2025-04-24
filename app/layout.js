@@ -19,10 +19,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${inter.variable} ${sourceSerif.variable} antialiased`}
     >
-      <body>
-        <Navbar />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
