@@ -11,7 +11,7 @@ export default function Home() {
         <div className="relative z-10">
           <Navbar />
           <div className="py-40">
-            <h1 className="font-source-serif text-6xl text-[#4343a0]">
+            <h1 className="font-source-serif text-6xl">
               kaleigh is a <span className="italic">full stack developer</span>{" "}
               ✩‧₊˚ with a background in <span className="italic">AI</span> and a
               love for art and design₊˚⊹♡ she’s into curious problems, creative
