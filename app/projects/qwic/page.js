@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function page() {
   return (
     <section
-      className="bg-white mx-12 sm:mx-20 md:mx-56 lg:mx-72 py-10 font-poppins"
+      className="bg-white mx-12 sm:mx-20 md:mx-40 xl:mx-72 py-10 font-poppins"
       id="projects"
     >
       {/* Heading */}
       <div className="mb-10 text-center">
-        <h1 className="text-4xl italic font-source-serif">
+        <h1 className="text-xl md:text-2xl lg:text-4xl italic font-source-serif">
           Queen's Women in Computing Website
         </h1>
         <h3 className="text-base font-poppins text-center text-secondary-col">
@@ -24,12 +24,12 @@ export default function page() {
           alt="QWIC website picture"
           className="mb-10"
         />
-        <div className="grid grid-cols-4 gap-x-8 gap-y-4 w-4/6">
-          <div className="row-span-1 col-span-1">
+        <div className="grid grid-cols-4 gap-x-8 gap-y-4 w-5/6 lg:w-4/6">
+          <div className="row-span-1 col-span-4 sm:col-span-1">
             <h2 className="font-bold mb-2">Timeline</h2>
             <p>12 Months</p>
-            <div>
-              <h2 className="font-bold mb-2 mt-8">Tools</h2>
+            <div className="mb-4">
+              <h2 className="font-bold mt-8 mb-2">Tools</h2>
               <ul>
                 <li>Next.js</li>
                 <li>Tailwind CSS</li>
@@ -38,9 +38,9 @@ export default function page() {
               </ul>
             </div>
           </div>
-          <div className="col-span-3 row-span-1">
+          <div className="col-span-4 sm:col-span-3 row-span-1">
             <h2 className="font-bold mb-2">Overview</h2>
-            <p>
+            <p className="mb-2">
               I led a team of three developers using Agile methodologies to
               build QWIC’s website. QWIC's original website was built using HTML
               so the goal was to rebrand the website in a way that still fit the
@@ -63,7 +63,7 @@ export default function page() {
             </p>
           </div>
 
-          <div className="col-span-3 col-start-2 row-start-2">
+          <div className="col-span-4 sm:col-span-3 col-start-1 sm:col-start-2 row-start-2">
             <h2 className="font-bold mb-2">My Role</h2>
             <p>Team Lead, Mentor, Full-Stack Developer.</p>
           </div>
