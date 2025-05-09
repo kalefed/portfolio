@@ -3,12 +3,12 @@ import Navbar from "../components/navbar";
 
 export default function aboutMe() {
   return (
-    <div className="mx-28">
+    <div className="px-14 lg:px-28">
       <Navbar />
       <section className="flex justify-center items-center">
-        <header className="flex flex-row mt-10">
+        <header className="flex flex-col md:flex-row gap-4 mt-10">
           <div className="basis-3/6 flex flex-col gap-4">
-            <h1 className="font-source-serif text-6xl">
+            <h1 className="font-source-serif text-3xl md:text-4xl lg:text-6xl">
               Nice to meet you, I'm Kaleigh ⊹₊⟡⋆
             </h1>
             <p>
