@@ -18,10 +18,10 @@ export default function WorkingOn() {
           className="p-4 hover:bg-neutral-100 hover:rounded-xl"
         >
           <Image
-            src="/saywhat_thumbnail.png"
+            src="/onmyshelf_thumbnail.png"
             width={700}
             height={200}
-            alt="QWIC website picture"
+            alt="Purple and blue gradient background with an image of a book on top."
             className="mb-4"
           />
           <h1 className="font-source-serif text-xl">On My Shelf — 2025</h1>
