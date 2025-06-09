@@ -81,14 +81,15 @@ export default function page() {
             </h2>
             <p>
               The frontend is a next.js app that communicates with the Flask
-              backend and the database is PostgreSQL.
+              backend and the database is PostgreSQL. Below are level one and
+              two diagrams following the C4 diagram convention.
             </p>
             <Image
               src="/c4diagram.png"
               width={700}
               height={200}
               alt="C4 diagram with level one and two"
-              className="mb-10"
+              className="mb-10 mt-10"
             />
           </div>
           <div className="col-span-4">
@@ -96,26 +97,69 @@ export default function page() {
               Database Modeling
             </h2>
             <h3 className="font-bold mt-8 mb-2">ER Diagram</h3>
+            <p>
+              I developed the final ER diagram in an iterative design. It went
+              through various iterations, starting at its most simple with only
+              a shelf and book table.
+            </p>
             <Image
               src="/erDiagram.png"
               width={800}
               height={300}
               alt="ER diagram for a book tracker application"
-              className="mb-10"
+              className="mb-10 mt-10"
             />
           </div>
-          {/* <div className="col-span-4">
+          <div className="col-span-4">
             <h2 className="text-lg md:text-xl lg:text-2xl italic font-medium font-source-serif mb-2">
               Implementation
             </h2>
-            <h3 className="font-bold mt-8 mb-2">Frontend</h3>
-            <h3 className="font-bold mt-8 mb-2">Backend</h3>
+            <p>
+              One of my main goal's for this project was to strengthen my
+              backend development skills, so I tackled development with backend
+              first. I knew it would be most comfortable to do the frontend and
+              design first, but I wanted to challenge myself.
+            </p>
+            <p className="mt-4">
+              To give structure to both frontend and backend development, I
+              started by brainstorming some user stories to have a clear idea of
+              the functionalities I wanted to implement.
+            </p>
+            <Image
+              src="/userStory.png"
+              width={800}
+              height={300}
+              alt="ER diagram for a book tracker application"
+              className="mb-10 mt-10"
+            />
+            <h3 className="font-bold mt-8 mb-2">Backend - API</h3>
+            <p className="">
+              I opted to code the API in Python using Flask, SQLAlchemy,
+              designing the API in multiple versions according to the ER
+              diagram. For example, some of different versions:
+            </p>
+            <Image
+              src="/api/v0.png"
+              width={800}
+              height={300}
+              alt="API v0"
+              className="mb-10 mt-10"
+            />
+            <Image
+              src="/api/v1.png"
+              width={800}
+              height={300}
+              alt="API v1"
+              className="mb-10 mt-10"
+            />
+
+            {/* <h3 className="font-bold mt-8 mb-2">Frontend</h3>
             <h3 className="font-bold mt-8 mb-2">DevOps & Testing</h3>
             <p>
               For manual testing, I used Postman for every API endpoint and
               wrote unit tests using{" "}
-            </p>
-          </div> */}
+            </p> */}
+          </div>
         </div>
       </div>
     </section>
