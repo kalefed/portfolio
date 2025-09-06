@@ -14,15 +14,16 @@ export default function aboutMe() {
                 Nice to meet you, I'm Kaleigh ⊹₊⟡⋆
               </h1>
               <p>
-                I'm Kaleigh Feder, a CS (AI major) new grad from Queen's
-                University located in Kitchener. I've previously interned at
-                Statistics Canada and the Canada Revenue Agency.
+                I'm Kaleigh Feder, a Junior Software Developer at Jumping
+                Elephants. I have a Computing degree, with a major in AI from
+                Queen's University and am currently located in Kitchener. I've
+                previously interned at Statistics Canada and the Canada Revenue
+                Agency.
               </p>
               <p>
                 What excites me about Full Stack development is bridging the gap
                 between my creative and technical sides with work that makes a
-                big impact. Currently, I'm on the hunt for new grad developer
-                opportunities.
+                big impact.
               </p>
             </div>
             <section className="basis-3/6">

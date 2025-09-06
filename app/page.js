@@ -22,9 +22,9 @@ export default function Home() {
                 solutions ⊹₊⟡⋆ and growing communities through tech
               </h1>
               <h2 className="font-inter text-sm md:text-lg lg:text-xl mt-10 w-1/2 lg:w-4/6 xl:w-1/2">
-                Currently searching for new grad dev roles, building a book
-                statistics visualizer and reading a fantasy book in her free
-                time!
+                Currently a Junior Software Developer at Jumping Elephants,
+                building a book statistics visualizer and reading a fantasy book
+                in her free time!
               </h2>
             </div>
           </FadeInAnimation>
