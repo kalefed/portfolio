@@ -1,5 +1,5 @@
 import Image from "next/image";
-import WorkingOn from "./workingOn";
+import WorkingOn from "./components/working_on/workingOn";
 import Navbar from "./components/navbar";
 import GrainBackground from "./components/GrainBg";
 import BackpackReveal from "./components/Backpack";
