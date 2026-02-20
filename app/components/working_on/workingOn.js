@@ -13,23 +13,29 @@ export default function WorkingOn() {
           click on a project to learn more
         </h3>
       </header>
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10">
+      <section className="grid grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-6 xl:gap-8">
         {project_list.map((project, index) => {
           return (
             <Link
               key={index}
               href={project.href}
-              className="p-4 hover:bg-neutral-100 hover:rounded-xl"
+              className="p-4 hover:bg-neutral-100 hover:rounded-xl flex flex-col items-center"
             >
-              <Image
-                src={project.image_path}
-                width={700}
-                height={200}
-                alt={project.image_alt}
-                className="mb-4"
-              />
-              <h1 className="font-source-serif text-xl">{project.name}</h1>
-              <p className="text-[#aaaaaa]">{project.description}</p>
+              <div className="w-full mb-4">
+                <Image
+                  src={project.image_path}
+                  width={700}
+                  height={200}
+                  alt={project.image_alt}
+                  className="w-full h-auto rounded-lg object-cover mb-4"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+
+              <div className="flex flex-col items-start w-full">
+                <h1 className="font-source-serif text-xl">{project.name}</h1>
+                <p className="text-[#aaaaaa]">{project.description}</p>
+              </div>
             </Link>
           );
         })}
