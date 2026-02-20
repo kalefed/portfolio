@@ -14,17 +14,16 @@ export default function Home() {
           <Navbar />
           <FadeInAnimation>
             <div className="mt-40 mb-50">
-              <h1 className="font-source-serif text-3xl md:text-4xl lg:text-6xl">
-                kaleigh is a{" "}
-                <span className="italic">full stack developer</span> ✩‧₊˚ with a
-                background in <span className="italic">AI</span> and a love for
-                art and design₊˚⊹♡ she’s into curious problems, creative
-                solutions ⊹₊⟡⋆ and growing communities through tech
+              <h1 className="font-sans text-3xl md:text-4xl lg:text-6xl w-3/4">
+                Full-stack developer ⊹₊⟡⋆ who enjoys the details of
+                infrastructure & backend development and the creativity of frontend work
+                {/* 
+                Full-stack developer ⊹₊⟡⋆ who finds balance between robust
+                systems and thoughtful interfaces */}
               </h1>
-              <h2 className="font-inter text-sm md:text-lg lg:text-xl mt-10 w-1/2 lg:w-4/6 xl:w-1/2">
-                Currently a Junior Software Developer at Jumping Elephants,
-                building a book statistics visualizer and reading a fantasy book
-                in her free time!
+              <h2 className="font-sans text-sm md:text-lg lg:text-xl mt-10 w-1/2 lg:w-4/6 xl:w-1/2">
+                Hi, I'm Kaleigh, a full-stack developer currently doing
+                end-to-end developement @ Jumping Elephants
               </h2>
             </div>
           </FadeInAnimation>
