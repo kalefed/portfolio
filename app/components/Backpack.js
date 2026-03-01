@@ -12,6 +12,7 @@ export default function BackpackReveal() {
             src="/loot/bag.png"
             alt="Backpack"
             fill
+            sizes="(max-width: 1024px) 0px, 30vw"
             className="object-contain"
             priority
           />
@@ -28,7 +29,7 @@ export default function BackpackReveal() {
           transition-all duration-200 ease-out
           opacity-0 scale-50
           -translate-x-[90px] -translate-y-[100px]
-          group-hover:-translate-x-[120px] group-hover:-translate-y-[270px]
+          group-hover:-translate-x-[105px] group-hover:-translate-y-[270px]
           group-hover:opacity-100 group-hover:scale-100
         "
       >
@@ -37,6 +38,7 @@ export default function BackpackReveal() {
             src="/loot/book.png"
             alt="Book"
             fill
+            sizes="(max-width: 1024px) 0px, 30vw"
             className="object-contain"
           />
         </div>
@@ -58,6 +60,7 @@ export default function BackpackReveal() {
             src="/loot/music.png"
             alt="Music"
             fill
+            sizes="(max-width: 1024px) 0px, 30vw"
             className="object-contain"
           />
         </div>
@@ -79,6 +82,7 @@ export default function BackpackReveal() {
             src="/loot/coffee.png"
             alt="Coffee"
             fill
+            sizes="(max-width: 1024px) 0px, 30vw"
             className="object-contain"
           />
         </div>
@@ -100,6 +104,7 @@ export default function BackpackReveal() {
             src="/loot/sketch.png"
             alt="Sketch"
             fill
+            sizes="(max-width: 1024px) 0px, 30vw"
             className="object-contain"
           />
         </div>
