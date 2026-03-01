@@ -19,9 +19,8 @@ export default function Home() {
             <FadeInAnimation>
               <div>
                 <h1 className="font-sans text-3xl md:text-4xl lg:text-6xl max-w-2xl">
-                  Full-stack developer ⊹₊⟡⋆ who enjoys the details of
-                  infrastructure & backend development and the creativity of
-                  frontend work
+                  Full-stack developer ⊹₊⟡⋆ passionate about backend and
+                  infrastructure, and thoughtful frontend experiences ₊˚⊹♡
                 </h1>
 
                 <h2 className="font-sans text-sm md:text-lg lg:text-xl mt-10 max-w-xl">
