@@ -23,7 +23,8 @@ export default function page() {
           width={700}
           height={200}
           alt="Pentagram video game screens"
-          className="mb-10"
+          className="mb-10 w-5/6 lg:w-4/6"
+          loading="eager"
         />
         <div className="grid grid-cols-4 gap-x-8 gap-y-4 w-5/6 lg:w-4/6">
           <div className="row-span-1 col-span-4 sm:col-span-1">
