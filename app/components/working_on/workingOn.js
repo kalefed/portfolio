@@ -6,7 +6,7 @@ export default function WorkingOn() {
   return (
     <div>
       <header className="mb-10">
-        <h1 className="font-source-serif text-3xl md:text-4xl lg:text-6xl">
+        <h1 className="font-sans text-3xl md:text-4xl lg:text-6xl">
           what I've been <span className="italic">working</span> on ₊⟡⋆
         </h1>
         <h3 className="font-inter text-sm md:text-lg lg:text-xl pl-2 pt-5">
