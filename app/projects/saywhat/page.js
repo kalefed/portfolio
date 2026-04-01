@@ -23,7 +23,7 @@ export default function page() {
           width={700}
           height={200}
           alt="Say what website search bar"
-          className="mb-10"
+          className="mb-10 w-5/6 lg:w-4/6"
         />
         <div className="grid grid-cols-4 gap-x-8 gap-y-4 w-5/6 lg:w-4/6">
           <div className="row-span-1 col-span-4 sm:col-span-1">
@@ -103,14 +103,14 @@ export default function page() {
               width={600}
               height={200}
               alt="Kaleigh and KJ"
-              className="mb-10 rounded-xl"
+              className="mb-10 rounded-xl w-auto h-auto"
             />
             <Image
               src="/saywhat/winners.png"
               width={600}
               height={200}
               alt="Kaleigh, KJ, Kate and Allix with Hackathon prize"
-              className="mb-10 rounded-xl"
+              className="mb-10 rounded-xl w-auto h-auto"
             />
           </div>
         </div>
