@@ -1,12 +1,12 @@
 export const project_list = [
-  {
-    name: "On My Shelf — 2025",
-    description: "View and track your reading statistics",
-    href: "/projects/onmyshelf",
-    image_path: "/onmyshelf_thumbnail.png",
-    image_alt:
-      "Purple and blue gradient background with an image of a book on top.",
-  },
+  // {
+  //   name: "On My Shelf — 2025",
+  //   description: "View and track your reading statistics",
+  //   href: "/projects/onmyshelf",
+  //   image_path: "/onmyshelf_thumbnail.png",
+  //   image_alt:
+  //     "Purple and blue gradient background with an image of a book on top.",
+  // },
   {
     name: "Say What — 2025",
     description: "Project for Queen's HackHer (Won Best Education Hack)",
@@ -30,7 +30,7 @@ export const project_list = [
     image_alt: "COMPSA admin panel.",
   },
   {
-    name: "The Pentagram",
+    name: "The Pentagram — 2023",
     description: "Artist & Story Developer",
     href: "/projects/pentagram",
     image_path: "/pentagram_thumbnail.png",
