@@ -7,7 +7,7 @@ export default function WorkingOn() {
     <div>
       <header className="mb-10">
         <h1 className="font-sans text-3xl md:text-4xl lg:text-6xl">
-          what I've been <span className="italic">working</span> on ₊⟡⋆
+          What I've been <span className="italic">working</span> on ₊⟡⋆
         </h1>
       </header>
       <section className="grid grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-6 xl:gap-8">
