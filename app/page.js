@@ -42,9 +42,9 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="my-10 px-14 lg:px-28">
+      {/* <section className="my-10 px-14 lg:px-28">
         <Experiences />
-      </section>
+      </section> */}
 
       <section className="my-10 px-14 lg:px-28">
         <WorkingOn />
